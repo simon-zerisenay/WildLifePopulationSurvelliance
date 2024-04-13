@@ -1,0 +1,54 @@
+.container {
+    background-color: #fff;
+    margin-bottom: 5rem; /* .mb-20 */
+    display: flex; /* .flex */
+    flex-direction: column; /* .flex-col */
+    flex: 1; /* .flex-1 */
+    border-width: 1px; /* .border */
+    border-style: solid; /* .border */
+    border-color: #8a9399; /* .border-slate-200 */
+    padding: 2.5rem; /* .p-10 */
+    align-items: stretch; /* .items-stretch */
+  }
+  
+  .container:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* .hover\:shadow-md */
+  }
+
+  .image-container {
+    display: flex; /* .flex */
+    flex-direction: column; /* .flex-col */
+    flex: 2; /* .flex-2 */
+  }
+
+  .custom-text {
+    font-weight: 700; /* .font-bold */
+    font-size: 1.25rem; /* .text-xl */
+    margin-top: 0.5rem; /* .my-2 */
+    margin-bottom: 0.5rem; /* .my-2 */
+    color: #2b6cb0; /* Assuming 'blue-950' corresponds to a shade of blue */
+  }
+
+  .flex-container {
+    display: flex; /* .flex */
+    align-items: center; /* .items-center */
+    gap: 0.5rem; /* Assuming each unit is 0.25rem */
+  }
+  .custom-text-medium {
+    margin-top: 0.5rem; /* .my-2 */
+    margin-bottom: 0.5rem; /* .my-2 */
+    font-weight: 500; /* .font-medium */
+  }
+
+  .custom-full-width-container {
+    width: 100%; /* .w-full */
+    display: flex; /* .flex */
+    flex: 1; /* .flex-1 */
+    max-width: 700px; /* .max-w-[700px] */
+  }
+  
+  .container-image {
+    flex: 1;
+    flex-direction: row;
+    
+  }
