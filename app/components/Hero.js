@@ -15,18 +15,20 @@ function Hero() {
         muted
       />
       <h1>wildlife Counting</h1>
-      <p>                       Transforming Wildlife Conservation: Innovating Population Surveys with Advanced Computer Vision and Drone Technology</p>
+      <p>Transforming Wildlife Conservation: Innovating Population Surveys with Advanced Computer Vision and Drone Technology</p>
       <div className="hero-btns">
         <Button
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
+          href='/about'
         >
           About Us
         </Button>
         
         
         <Button
+          href='/research-page'
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"

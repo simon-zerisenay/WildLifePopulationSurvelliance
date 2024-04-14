@@ -7,7 +7,7 @@ import { MdCancel } from "react-icons/md";
 import { Button } from "./Button";
 import "./navbar.css";
 import Link from "next/link";
-''
+
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
@@ -24,8 +24,9 @@ function Navbar() {
   };
   useEffect(() => {
     showButton();
+    window.addEventListener("resize", showButton);
   }, []);
-  window.addEventListener("resize", showButton);
+  
 
   // new code for a navbar
 
