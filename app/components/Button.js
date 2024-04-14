@@ -1,3 +1,4 @@
+'use client';
 import React from "react";
 import "./Button.css";
 import Link from "next/link";
@@ -12,6 +13,8 @@ export const Button = ({
   onClick,
   buttonStyle,
   buttonSize,
+  href,
+  
 }) => {
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
@@ -20,7 +23,7 @@ export const Button = ({
 
   return (
     <Link
-      href="/research-page"
+      href={href}
       className="btn-mobile">
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}

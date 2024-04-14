@@ -21,9 +21,11 @@ function Aboutus() {
         
 
         <Button
+          href='/about'
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--medium"
+          
         >
           Who we are
         </Button>
