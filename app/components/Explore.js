@@ -50,9 +50,8 @@ const Explore = () => {
 //     </div>
 //     </div>
 <div
-              className='container'
-              
-            >
+              className='container__1' >
+              <div className='section-1'>
               <div className='image-container'>
                 <h2 className='custom-text'>
                 Wild Life Counting Project
@@ -66,23 +65,25 @@ const Explore = () => {
  </p>
 
               </div>
-
+              <div className='buffalo-image'>   
               <Image
                 src='/images/bufalo-2.jpg'
                 alt='location'
                 height={500}
-                width={1044}
+                width={500}
                 className='custom-full-width-container'
               />
-
-<div className='image-container'>
+              </div>
+              </div>
+<div className='section-1'>  
+<div className='overview-container'>
                 <h2 className='custom-text'>
                 Project Overview
                 </h2>
 
                 <div className='flex-container'>
               
-                  <h3 className='custom-text-medium'> </h3>
+                  <h3 className='custom-text-medium'>  </h3>
                 </div>
  <p> Our project proposes the integration of state-of-the-art computer vision models into high-resolution drone cameras. These drones will serve as our primary tools for conducting wildlife surveys, offering a non-intrusive and comprehensive means of data collection. By utilizing advanced algorithms, we can automate the process of wildlife tracking and counting, eliminating the need for manual surveys conducted via helicopter.</p>
 
@@ -91,25 +92,26 @@ const Explore = () => {
               <Image
                 src='/images/yolo.jpg'
                 alt='location'
-                height={500}
-                width={500}
+                height={250}
+                width={250}
                 className='custom-full-width-container'
               />
               <Image
                 src='/images/addition2.png'
                 alt='location'
                 height={200}
-                width={200}
+                width={100}
                 className='custom-full-width-container'
               />
                
               <Image
                 src='/images/drone.jpeg'
                 alt='location'
-                height={500}
-                width={500}
+                height={250}
+                width={250}
                 className='custom-full-width-container'
               />
+              </div>
               </div>
               
             </div>

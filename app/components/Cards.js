@@ -4,14 +4,14 @@ import "./CardItems.css";
 function Cards() {
   return (
     <div className="cards">
-      <h1>Explore Our Previous Research Projects!</h1>
+      <h1>Benefits of Wild life counting project</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItems
               src="images/camel-pro.jpg"
               text="ensuring camel production using cutting-edge technologies"
-              label="Camels"
+              // label="Camels"
               path="/services"
             />
             <CardItems

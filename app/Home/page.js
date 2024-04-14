@@ -9,9 +9,9 @@ const Home
   return (
     <>
     <Hero/>
-    <Explore/>
+    {/* <Explore/> */}
     <Aboutus/>
-    <Cards/>
+    {/* <Cards/> */}
     <Footer/>
     </>
 

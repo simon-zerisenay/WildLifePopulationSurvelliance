@@ -5,14 +5,18 @@ function Aboutus() {
   return (
     <div className="about-us-wrapper">
       <div className="about-us-box">
-        <h1 className="about-us-text"> About Fujairah Research Center </h1>
+        <h1 className="about-us-text"> About us </h1>
         <p className="about-us-intro">
-        The Fujairah research centre plays a central role in the Emirate of Fujairah's vision and alignment to the UAE innovation strategy 2071.
-The Centre is focused on applied research and technology innovation for desert and tropical areas and encompasses environmental, genetic, and marine.
+        The Wild Life Counting Project innovates wildlife population surveys using advanced computer vision and drone technology. Our mission is to streamline and enhance wildlife tracking and counting through state-of-the-art models integrated into drones and a user-friendly mobile app. With a clear 12-month plan from research to deployment, led by a dedicated Resident Engineer, we're redefining wildlife monitoring with efficiency, accuracy, and conservation at the forefront.
         </p>
         <p className="about-us-contination">
-        Our vision is to achieve a sustainable economy in Fujairah through cutting-edge innovative research for:
-Efficient, safe, and sustainable use of natural resources.
+        Our vision is to revolutionize wildlife population surveys through the seamless integration of cutting-edge computer vision and drone technology, advancing conservation efforts with efficiency, accuracy, and accessibility.
+
+
+
+
+
+
         </p>
         
 

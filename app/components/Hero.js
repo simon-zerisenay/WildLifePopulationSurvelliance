@@ -15,7 +15,7 @@ function Hero() {
         muted
       />
       <h1>wildlife Counting</h1>
-      <p> Securing Laboratories Through Cutting-Edge Technology</p>
+      <p>                       Transforming Wildlife Conservation: Innovating Population Surveys with Advanced Computer Vision and Drone Technology</p>
       <div className="hero-btns">
         <Button
           className="btns"
