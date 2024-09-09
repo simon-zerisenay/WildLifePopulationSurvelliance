@@ -57,7 +57,7 @@ function Navbar() {
                 About us
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link
                 href="/products"
                 className="nav-links"
@@ -65,8 +65,8 @@ function Navbar() {
               >
                 Contact Us
               </Link>
-            </li>
-            <li className="nav-item">
+            </li> */}
+            {/* <li className="nav-item">
               <Link
                 href="sign-up"
                 className="nav-links-mobile"
@@ -74,7 +74,7 @@ function Navbar() {
               >
                 Sign Up
               </Link>
-            </li>
+            </li> */}
           </ul>
 
           {  button && <Button                 href="sign-up"

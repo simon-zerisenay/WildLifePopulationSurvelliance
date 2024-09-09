@@ -1,7 +1,7 @@
 .about-us-wrapper {
     background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
   
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     /* background-color: #000000; */
   }

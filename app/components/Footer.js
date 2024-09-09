@@ -26,7 +26,7 @@ function Footer() {
           </form>
         </div>
       </section>
-      <div className="footer-links">
+      {/* <div className="footer-links">
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>About us</h2>
@@ -112,8 +112,8 @@ function Footer() {
               <i class="fab fa-linkedin" />
             </Link>
           </div>
-        </div>
-      </section>
+        </div> */}
+      {/* </section> */}
     </div>
   );
 }
