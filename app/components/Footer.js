@@ -11,9 +11,9 @@ function Footer() {
           Join our Innovation Research Newsletter to Receive the Latest
           Breakthroughs!
         </p>
-        <p className="footer-subscription-text">
-          you can un sunscribe any time you want
-        </p>
+        {/* <p className="footer-subscription-text">
+          you can unsubscribe any time you want
+        </p> */}
         <div className="input-areas">
           <form>
             <input
